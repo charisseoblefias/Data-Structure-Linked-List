@@ -1,0 +1,26 @@
+﻿<Window x:Class="Linked_List.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Linked_List"
+        mc:Ignorable="d"
+        Title="Singly Linked List" Height="450" Width="722" FontFamily="Century Gothic" FontSize="16" BorderThickness="1,1,1,1" Icon="/0_EB-4v5BrBCT3ooxN (1).png">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black"/>
+            <GradientStop Color="#FFF4E7E7" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid Background="LightSteelBlue">
+        <StackPanel Orientation="Horizontal" Margin="110,14,70,361">
+            <TextBox x:Name="textBox1" Margin="5" Width="161" FontFamily="Century Gothic" FontSize="16" />
+            <Button x:Name="btnInsert" Content="Insert" Width="75" Margin="5" Click="btnInsert_Click" FontFamily="Century Gothic" FontSize="16" Background="#FFDADCDB" BorderBrush="#FFDADCDB"/>
+            <Button x:Name="btnRemove" Content="Remove" Width="75" Margin="5" Click="btnRemove_Click" FontSize="16" FontFamily="Century Gothic" Background="#FFDADCDB" BorderBrush="#FFDADCDB"/>
+            <Button x:Name="btnSearch" Content="Search" Width="75" Margin="5" Click="btnSearch_Click" FontFamily="Century Gothic" FontSize="16" Background="#FFDADCDB" BorderBrush="#FFDADCDB"/>
+            <Button x:Name="btnClear" Content="Clear" Width="75" Margin="5" Click="btnClear_Click" FontFamily="Century Gothic" FontSize="16" Background="#FFDADCDB" BorderBrush="#FFDADCDB"/>
+        </StackPanel>
+        <Canvas x:Name="canvas1" Margin="92,100,92,38" Background="#FFDADCDB"/>
+
+    </Grid>
+</Window>
